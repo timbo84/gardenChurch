@@ -88,3 +88,6 @@ android/app/release.keystore
 android/gradle.properties
 ios/GoogleService-Info.plist
 ios/gardenChurch/GoogleService-Info.plist
+public/firebase-messaging-sw.js
+google-services.json
+GoogleService-Info.plist
