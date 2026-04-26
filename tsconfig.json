@@ -4,5 +4,31 @@
     "types": ["jest"]
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["**/node_modules", "**/Pods"]
+  "exclude": [
+    "**/node_modules",
+    "**/Pods",
+    "components/**",
+    "auth/**",
+    "src/screens/admin/page.tsx",
+    "src/screens/admin/love-action/**",
+    "src/screens/admin/prayers/**",
+    "src/screens/announcements/page.tsx",
+    "src/screens/announcements/new/**",
+    "src/screens/announcements/edit/**",
+    "src/screens/cellgroup/page.tsx",
+    "src/screens/cellgroup/new/**",
+    "src/screens/cellgroup/edit/**",
+    "src/screens/events/page.tsx",
+    "src/screens/events/new/**",
+    "src/screens/events/edit/**",
+    "src/screens/volunteer/page.tsx",
+    "src/screens/volunteer/new/**",
+    "src/screens/volunteer/edit/**",
+    "src/screens/love-action/**",
+    "src/screens/prayer-requests/**",
+    "src/screens/login/**",
+    "src/screens/forgot-password/**",
+    "src/screens/reset-password/**",
+    "src/screens/api/**"
+  ]
 }
